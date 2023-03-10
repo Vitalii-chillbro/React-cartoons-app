@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-cartoons-app/static/css/main.3fe13ab7.css",
-    "main.js": "/react-cartoons-app/static/js/main.bd33c2b3.js",
+    "main.js": "/react-cartoons-app/static/js/main.bfd7eb6c.js",
     "static/js/787.e8562074.chunk.js": "/react-cartoons-app/static/js/787.e8562074.chunk.js",
     "static/media/title_img.jpg": "/react-cartoons-app/static/media/title_img.475efae23620a5951afd.jpg",
     "index.html": "/react-cartoons-app/index.html",
     "static/media/search_icon.svg": "/react-cartoons-app/static/media/search_icon.c77a50f238257623b5e066b03e852c00.svg",
     "static/media/back_arrow.svg": "/react-cartoons-app/static/media/back_arrow.58acb58c0d6bedac27e8921bfdcfc28a.svg",
     "main.3fe13ab7.css.map": "/react-cartoons-app/static/css/main.3fe13ab7.css.map",
-    "main.bd33c2b3.js.map": "/react-cartoons-app/static/js/main.bd33c2b3.js.map",
+    "main.bfd7eb6c.js.map": "/react-cartoons-app/static/js/main.bfd7eb6c.js.map",
     "787.e8562074.chunk.js.map": "/react-cartoons-app/static/js/787.e8562074.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3fe13ab7.css",
-    "static/js/main.bd33c2b3.js"
+    "static/js/main.bfd7eb6c.js"
   ]
 }
