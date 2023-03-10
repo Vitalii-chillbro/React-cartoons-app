@@ -31,7 +31,7 @@ function App() {
       function start() {
         gapi.client.init(
           {
-            clientId: clientId,
+            client_id: clientId,
             scope: ""
           }
         )
