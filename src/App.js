@@ -29,7 +29,7 @@ function App() {
 
     useEffect(() => {
       function start() {
-        gapi.client.init(
+        gapi.auth2.init(
           {
             client_id: clientId,
             scope: ""
