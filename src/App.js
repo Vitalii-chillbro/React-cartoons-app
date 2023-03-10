@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import { gapi } from 'gapi-script';
 
 import About from './components/about/About';
@@ -41,13 +41,13 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <Routes>
         <Route path="/" element={<Login /> } />
         <Route path="about/:id" element={<About characters={characters} />} />  
         <Route path='main' element={< Main characters={characters} />} />      
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
