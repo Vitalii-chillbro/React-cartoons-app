@@ -1,0 +1,141 @@
+.about {
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about_header {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 23px 0 32px 24px;
+    gap: 12px;
+}
+
+.about_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about_avatar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_avatar img {
+    width: 320px;
+    border: 5px solid #F2F2F7;
+    border-radius: 150px;
+}
+
+.about_avatar h3 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.about_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #8E8E93;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #081F32;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #6E798C;
+}
+
+.about_items {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+}
+
+@media only screen and (max-width: 768px) {
+    .about_avatar h3 {
+        font-size: 32px;
+    }
+
+    h4 {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .about_avatar img {
+        width: 250px;
+        border: 5px solid #F2F2F7;
+        border-radius: 150px;
+    }
+
+    .about_information {
+        margin-left: 20%;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    .about_avatar h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .about_avatar img {
+        width: 150px;
+    }
+
+    .about_information {
+        margin-left: 20%;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+    .about_avatar img {
+        width: 120px;
+    }
+
+    h4 {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .about_avatar h3 {
+        font-size: 22px;
+    }
+
+    .about_information {
+        margin-left: 20%;
+        align-items: flex-start;
+    }
+}
