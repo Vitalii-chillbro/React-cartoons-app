@@ -51,7 +51,7 @@ const Login = () => {
           />
           <GoogleLogout
             clientId={clientId}
-            buttonText={"Logut"}
+            buttonText="Logout"
             onLogoutSuccess={onLogOutSuccess}
           />
         </div>
