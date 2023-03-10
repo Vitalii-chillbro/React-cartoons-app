@@ -31,7 +31,7 @@ function App() {
       function start() {
         gapi.auth2.init(
           {
-            client_id: clientId,
+            clientId: clientId,
             scope: ""
           }
         )
