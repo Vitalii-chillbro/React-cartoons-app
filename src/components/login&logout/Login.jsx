@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { GoogleLogin } from 'react-google-login'
 import { GoogleLogout } from 'react-google-login'
 import { Link } from 'react-router-dom'
+
 import './login.css'
 
 const clientId = "1014785059938-nfjddqca3dqsrrr4b1bi66p8h5e3s5mq.apps.googleusercontent.com"
@@ -27,8 +28,8 @@ const Login = () => {
 
   return (
     <div className='login'>
-      <div className='login_wrapper'>
-        <div className='login_title'>
+      <div className='login__wrapper'>
+        <div className='login__title'>
           {showMessage ?
             <h1>
               {
@@ -40,7 +41,7 @@ const Login = () => {
             : <h1>Please log in</h1>
           }
         </div>
-        <div className='login_buttons'>
+        <div className='login__buttons'>
           <GoogleLogin
             clientId={clientId}
             buttonText="Login"

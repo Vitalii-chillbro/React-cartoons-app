@@ -1,10 +1,11 @@
 .main {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
 .main__wrapper {
-    width: 1340px;
+    width: 100%;
+    max-width: 1260px;
+    text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -17,7 +18,8 @@
 }
 
 .main__input {
-    width: 1220px;
+    width: 100%;
+    max-width: 1260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,12 +32,13 @@
 
 .main__input input {
     border: none;
-    width: 1220px;
+    width: 100%;
     outline: none;
 }
 
 .items__wrapper {
-    width: 1340px;
+    max-width: 1260px;
+    width: 100%;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -43,6 +46,8 @@
 }
 
 .item {
+    max-width: 300px;
+    width: 100%;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
     border-radius: 4px;
     text-align: left;
@@ -77,21 +82,21 @@
         width: 100%;
     }
 
-    .main__input {
-        width: 100%;
-    }
-
     .items__wrapper {
         width: 100%;
+        max-width: 70%;
+        margin: 0 auto;
     }
 
     .main__title img {
         height: 100%;
-        width: 80%;
+        max-width: 80%;
+        width: 100%;
     }
 
     .main__input, .main__input input {
-        width: 70%;
+        max-width: 300px;
+        width: 100%;
     }
 
 }
@@ -102,12 +107,14 @@
     }
 
     .main__input, .main__input input {
-        width: 70%;
+        max-width: 300px;
+        width: 100%;
     }
 
     .main__title img {
         height: 100%;
-        width: 80%;
+        max-width: 80%;
+        width: 100%;
     }
 }
 
@@ -118,10 +125,12 @@
 
     .main__title img {
         height: 100%;
-        width: 90%;
+        max-width: 90%;
+        width: 100%;
     }
 
     .main__input, .main__input input {
-        width: 220px;
+        max-width: 300px;
+        width: 100%;
     }
 }
