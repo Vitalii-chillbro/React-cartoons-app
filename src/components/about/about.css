@@ -3,6 +3,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.about a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .about__header {
     font-family: 'Karla', sans-serif;
     display: flex;
@@ -14,6 +19,7 @@
 
 .about__avatar {
     width: 100%;
+    text-align: center;
     max-width: 300px;
     margin: 0 auto;
 }
@@ -90,7 +96,7 @@ h6 {
 
     h4 {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 0;
     }
 
     .about__item {
@@ -110,7 +116,6 @@ h6 {
 
     .about__information {
         margin-left: 20%;
-        align-items: flex-start;
     }
 }
 
@@ -125,7 +130,7 @@ h6 {
 
     h4 {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 0;
     }
 
     .about__item {
@@ -143,7 +148,6 @@ h6 {
 
     .about__information {
         margin-left: 0;
-        align-items: flex-start;
     }
 }
 
@@ -163,7 +167,7 @@ h6 {
 
     h4 {
         text-align: left;
-        margin-left: 10%;
+        margin-left: 0;
     }
 
     .about__item {

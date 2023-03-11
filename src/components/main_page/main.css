@@ -18,8 +18,7 @@
 }
 
 .main__input {
-    width: 100%;
-    max-width: 1260px;
+    width: 1260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,6 +42,11 @@
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.items__wrapper a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .item {

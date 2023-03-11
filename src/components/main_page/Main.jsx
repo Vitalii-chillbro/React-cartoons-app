@@ -31,15 +31,17 @@ const Main = ({ characters }) => {
                     .map((character) => {
                         const { id, image, name, species } = character
                         return (
-                            <Link key={id} to={`/about/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <Link key={id} to={`/about/${id}`}>
                                 <div className='item'
                                     key={id}
                                 >
-                                    <img src={image}
-                                        alt="img" />
-                                    <div className="item__name">
-                                        <h5>{name}</h5>
-                                        <h6>{species}</h6>
+                                    <div>
+                                        <img src={image}
+                                            alt="img" />
+                                        <div className="item__name">
+                                            <h5>{name}</h5>
+                                            <h6>{species}</h6>
+                                        </div>
                                     </div>
                                 </div>
                             </Link>

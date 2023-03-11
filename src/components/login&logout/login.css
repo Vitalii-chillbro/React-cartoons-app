@@ -24,6 +24,12 @@
     margin-top: 20px;
 }
 
+.login__title a {
+    text-decoration: none;
+    text-align: center;
+    color: "#f0544f";
+}
+
 .login__buttons {
     height: 60%;
     display: flex;
@@ -39,6 +45,7 @@
         border: none;
         background-color: #FFFFFF;
     }
+
     .login__title {
         font-size: small;
     }

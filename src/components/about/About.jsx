@@ -9,7 +9,7 @@ const About = ({ characters }) => {
     const character = characters.filter(({ id: characterId }) => id == characterId)[0]
     return (
         <div className='about'>
-            <Link to="/main" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/main">
                 <div className='about__header'>
                     <img src={arrow} alt="img" />
                     GO BACK
