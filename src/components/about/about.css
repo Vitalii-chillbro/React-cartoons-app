@@ -90,6 +90,10 @@ h6 {
         margin-left: 10%;
     }
 
+    .about__items {
+        width: 80%;
+    }
+
     .about__avatar img {
         width: 250px;
         border: 5px solid #F2F2F7;
@@ -112,6 +116,10 @@ h6 {
         margin-left: 10%;
     }
 
+    .about__items {
+        width: 80%;
+    }
+
     .about__avatar img {
         width: 150px;
     }
@@ -130,6 +138,10 @@ h6 {
     h4 {
         text-align: left;
         margin-left: 10%;
+    }
+
+    .about__items {
+        width: 80%;
     }
 
     .about__avatar h3 {
