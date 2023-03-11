@@ -3,21 +3,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.main_wrapper {
-    width: 1140px;
+.main__wrapper {
+    width: 1340px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.main_title img {
+.main__title img {
     width: 600px;
     height: 200px;
 }
 
-.main_input {
-    width: 990px;
+.main__input {
+    width: 1220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,14 +28,14 @@
     padding: 16px;
 }
 
-.main_input input {
+.main__input input {
     border: none;
-    width: 990px;
+    width: 1220px;
     outline: none;
 }
 
-.items_wrapper {
-    width: 1140px;
+.items__wrapper {
+    width: 1340px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -48,13 +48,15 @@
     text-align: left;
 }
 
+.item__name {
+    padding: 0 0 7px 16px;
+}
+
 .item h5 {
-    height: 2px;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 0.15px;
-    padding-left: 16px;
 }
 
 .item h6 {
@@ -63,7 +65,6 @@
     line-height: 21px;
     letter-spacing: 0.25px;
     color: rgba(0, 0, 0, 0.6);
-    padding: 0 0 12px 16px;
 
 }
 
@@ -72,24 +73,24 @@
         width: 100%;
     }
 
-    .main_wrapper {
+    .main__wrapper {
         width: 100%;
     }
 
-    .main_input {
+    .main__input {
         width: 100%;
     }
 
-    .items_wrapper {
+    .items__wrapper {
         width: 100%;
     }
 
-    .main_title img {
+    .main__title img {
         height: 100%;
         width: 80%;
     }
 
-    .main_input, .main_input input {
+    .main__input, .main__input input {
         width: 70%;
     }
 
@@ -100,11 +101,11 @@
         width: 100%;
     }
 
-    .main_input, .main_input input {
+    .main__input, .main__input input {
         width: 70%;
     }
 
-    .main_title img {
+    .main__title img {
         height: 100%;
         width: 80%;
     }
@@ -115,12 +116,12 @@
         width: 100%;
     }
 
-    .main_title img {
+    .main__title img {
         height: 100%;
         width: 90%;
     }
 
-    .main_input, .main_input input {
+    .main__input, .main__input input {
         width: 220px;
     }
 }

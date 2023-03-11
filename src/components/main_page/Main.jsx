@@ -5,16 +5,16 @@ import logo from '../../img/title_img.jpg'
 import searchIcon from '../../img/search_icon.svg'
 import './main.css'
 
-const Main = ({characters}) => {
+const Main = ({ characters }) => {
     const [searchName, setSearchName] = useState("");
-    
+
     return (
         <div className='main'>
-            <div className='main_wrapper'>
-                <div className='main_title'>
+            <div className='main__wrapper'>
+                <div className='main__title'>
                     <img src={logo} alt="" />
                 </div>
-                <div className='main_input'>
+                <div className='main__input'>
                     <img src={searchIcon} alt="" />
                     <input
                         type="text"
@@ -25,21 +25,22 @@ const Main = ({characters}) => {
                 </div>
             </div>
 
-            <div className="items_wrapper">
+            <div className="items__wrapper">
                 {characters
                     .filter((character) => character.name.toLowerCase().includes(searchName.toLowerCase()))
                     .map((character) => {
-                        const {id, image, name, species} = character
+                        const { id, image, name, species } = character
                         return (
-                            <Link key={id} to={`/about/${id}`} style={{ textDecoration: 'none', color: 'inherit'}}>
+                            <Link key={id} to={`/about/${id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                                 <div className='item'
                                     key={id}
                                 >
                                     <img src={image}
-                                        width="240px"
                                         alt="img" />
-                                    <h5>{name}</h5>
-                                    <h6>{species}</h6>
+                                    <div className="item__name">
+                                        <h5>{name}</h5>
+                                        <h6>{species}</h6>
+                                    </div>
                                 </div>
                             </Link>
                         )

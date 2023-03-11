@@ -10,35 +10,35 @@ const About = ({ characters }) => {
     return (
         <div className='about'>
             <Link to="/main" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <div className='about_header'>
+                <div className='about__header'>
                     <img src={arrow} alt="img" />
                     GO BACK
                 </div>
             </Link>
-            <div className='about_wrapper'>
-                <div className='about_avatar'>
+            <div className='about__wrapper'>
+                <div className='about__avatar'>
                     <img src={character?.image} alt="" />
                     <h3>{character?.name}</h3>
                 </div>
                 <h4>Informations</h4>
-                <div className='about_information'>
-                    <div className="about_items">
+                <div className='about__information'>
+                    <div className="about__items">
                         <h5>Gender</h5>
                         <h6>{character?.gender}</h6>
                     </div>
-                    <div className="about_items">
+                    <div className="about__items">
                         <h5>Status</h5>
                         <h6>{character?.status}</h6>
                     </div>
-                    <div className="about_items">
+                    <div className="about__items">
                         <h5>Specie</h5>
                         <h6>{character?.species}</h6>
                     </div>
-                    <div className="about_items">
+                    <div className="about__items">
                         <h5>Origin</h5>
                         <h6>{character?.origin.name}</h6>
                     </div>
-                    <div className="about_items">
+                    <div className="about__items">
                         <h5>Type</h5>
                         <h6>{character?.type || 'Unknown'}</h6>
                     </div>

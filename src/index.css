@@ -9,3 +9,7 @@ body {
   justify-content: center;
   background-color: #FFFFFF;
 }
+h5,h6 {
+  margin: 0;
+  padding: 0;
+}

@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.about_header {
+.about__header {
     font-family: 'Karla', sans-serif;
     display: flex;
     justify-content: flex-start;
@@ -12,26 +12,26 @@
     gap: 12px;
 }
 
-.about_wrapper {
+.about__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.about_avatar {
+.about__avatar {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.about_avatar img {
+.about__avatar img {
     width: 320px;
     border: 5px solid #F2F2F7;
     border-radius: 150px;
 }
 
-.about_avatar h3 {
+.about__avatar h3 {
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -40,7 +40,7 @@
     line-height: 56px;
 }
 
-.about_information {
+.about__information {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +61,7 @@ h5 {
     line-height: 24px;
     letter-spacing: 0.15px;
     color: #081F32;
+    margin-top: 20px;
 }
 
 h6 {
@@ -69,9 +70,10 @@ h6 {
     line-height: 20px;
     letter-spacing: 0.25px;
     color: #6E798C;
+    margin-bottom: 20px;
 }
 
-.about_items {
+.about__items {
     width: 40%;
     display: flex;
     flex-direction: column;
@@ -79,7 +81,7 @@ h6 {
 }
 
 @media only screen and (max-width: 768px) {
-    .about_avatar h3 {
+    .about__avatar h3 {
         font-size: 32px;
     }
 
@@ -88,20 +90,20 @@ h6 {
         margin-left: 10%;
     }
 
-    .about_avatar img {
+    .about__avatar img {
         width: 250px;
         border: 5px solid #F2F2F7;
         border-radius: 150px;
     }
 
-    .about_information {
+    .about__information {
         margin-left: 20%;
         align-items: flex-start;
     }
 }
 
 @media screen and (max-device-width: 640px) {
-    .about_avatar h3 {
+    .about__avatar h3 {
         font-size: 28px;
     }
 
@@ -110,18 +112,18 @@ h6 {
         margin-left: 10%;
     }
 
-    .about_avatar img {
+    .about__avatar img {
         width: 150px;
     }
 
-    .about_information {
+    .about__information {
         margin-left: 20%;
         align-items: flex-start;
     }
 }
 
 @media screen and (max-device-width: 320px) {
-    .about_avatar img {
+    .about__avatar img {
         width: 120px;
     }
 
@@ -130,11 +132,11 @@ h6 {
         margin-left: 10%;
     }
 
-    .about_avatar h3 {
+    .about__avatar h3 {
         font-size: 22px;
     }
 
-    .about_information {
+    .about__information {
         margin-left: 20%;
         align-items: flex-start;
     }
